@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Jarvis",
+    "slug": "jarvis-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0a0a"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0a0a0a"
+      },
+      "package": "com.uzunelektrik.jarvis",
+      "permissions": [
+        "RECORD_AUDIO",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "RECEIVE_BOOT_COMPLETED",
+        "BIND_NOTIFICATION_LISTENER_SERVICE"
+      ]
+    },
+    "plugins": [
+      "expo-speech",
+      "expo-av",
+      "expo-location"
+    ]
+  }
+}
